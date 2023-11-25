@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Public Sans" , sans-serif;
+}
+#header {
+    padding: 30px 0;
+    background-color: white;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    
+}
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav a{
+    color: #19272E;
+font-size: 17px;
+font-weight: 500;
+letter-spacing: -0.6px;
+margin-right: 35px;
+}
+.header-icon span {
+    font-size: 25px;
+}
+#hero {
+    background: url("./img/Main\ image.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+.hero h1 {
+    color: #FFF;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.hero h5 {
+    color:  #19272E;
+font-size: 18px;
+font-weight: 400;
+
+}
+.hero {
+    text-align: center;
+    padding: 190px 200px;
+}
+#first {
+    padding: 112px 0;
+}
+.first-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.first-main h1 {
+    color:  #19272E;
+font-size: 48px;
+font-weight: 500;
+}
+.first-main h6{
+    color:  #818EEA;
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-info {
+    border-radius: 16px;
+border: 1px solid #E1E1E1;
+background: #F5F5F5;
+display: flex;
+width: 148px;
+padding: 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.img-info h3 {
+    color:  #19272E;
+font-size: 18px;
+font-weight: 500;
+}
+#new {
+    padding: 50px 0 110px 0;
+}
+.new h1{
+    color:  #19272E;
+text-align: center;
+font-size: 48px;
+font-weight: 500;
+}
+.all-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 210px;
+}
+.new-img h3{
+    color: #19272E;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+text-transform: uppercase;
+}
+.new-img h5 {
+    color: #19272E;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.all-books {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.books-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.book h3 {
+    color:  #19272E;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+}
+.book h5 {
+    color:  #19272E;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+opacity: 0.7;
+}
+.books-text h1 {
+    color: var(--Text-color, #19272E);
+font-size: 48px;
+font-weight: 500;
+}
+.books-text h5 {
+    color:  #818EEA;
+font-size: 18px;
+font-weight: 500;
+}
+#about {
+    padding: 100px 0;
+}
+.about-info  p {
+    color:  #19272E;
+font-size: 18px;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+
+}
+.about h1 {
+    color:  #19272E;
+text-align: center;
+font-size: 48px;
+font-weight: 500;
+}
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#footer {
+    background:  #818EEA;
+    padding: 112px 0}
+.footer-name h1 {
+    color:  #FFF;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: -1.5px;
+}
+.footer-name h6 {
+    color:  #FFF;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.3px;
+margin: 20px 0;
+}
+.footer-name input {
+    background:  #818EEA;
+    color: white;
+    font-size: 14px;
+    opacity: 0.7;
+    border-radius: 8px;
+border: 0.5px solid var(--Background-color, #FFF);
+width: 398px;
+height: 40px;
+position: relative;
+}
+.btn-footer {
+    position: absolute;
+    left: 501px;
+    margin-top: 12px;
+    background:  #818EEA;
+    border: none;
+    color:  #FFF;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: -0.3px;
+}
+.footer-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    
+}
+.lorem h3 {
+    color: var(--Background-color, #FFF);
+font-size: 16px;
+font-weight: 600;
+letter-spacing: -0.4px;
+margin-bottom: 20px;
+}
+.lorem h6 {
+    color: var(--Background-color, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: -0.2px;
+opacity: 0.5;
+}
+.lorem {
+    margin-left: 120px;
+}
