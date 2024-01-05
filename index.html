@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookShop</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -83,22 +87,37 @@
         <div class="container">
             <div class="new">
                 <h1>New Books</h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    
+                      <div class="swiper-slide">
+                        <div  class="new-img">
+                            <img src="./img/first.png" alt="">
+                            <h3>The Climate Book: <br>The Facts and the <br> Solutions</h3>
+                            <h5>by Greta Thunberg</h5>
+                        </div>                      </div>
+                      <div class="swiper-slide">
+                        <div  class="new-img">
+                            <img src="./img/second.png" alt="">
+                            <h3>Rest Is Resistance: <br> A Manifesto</h3>
+                            <h5>by Tricia Hersey</h5>
+                        </div>                      </div>
+                      <div class="swiper-slide">
+                        <div class="new-img">
+                            <img src="./img/third.png" alt="">
+                            <h3>A New Name: <br> Septology VI-VII</h3>
+                            <h5>by Jon Fosse</h5>
+                        </div>                      </div>
+                    
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 <div class="all-img">
-                    <div style="    margin-top: 90px ;" class="new-img">
-                        <img src="./img/first.png" alt="">
-                        <h3>The Climate Book: <br>The Facts and the <br> Solutions</h3>
-                        <h5>by Greta Thunberg</h5>
-                    </div>
-                    <div style="margin: 0 10px;" class="new-img">
-                        <img src="./img/second.png" alt="">
-                        <h3>Rest Is Resistance: <br> A Manifesto</h3>
-                        <h5>by Tricia Hersey</h5>
-                    </div>
-                    <div style="    margin-top: 75px ;" class="new-img">
-                        <img src="./img/third.png" alt="">
-                        <h3>A New Name: <br> Septology VI-VII</h3>
-                        <h5>by Jon Fosse</h5>
-                    </div>
+                   
+
+                  
                 </div>
             </div>
         </div>
@@ -199,6 +218,9 @@
         AOS.init();
       </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
